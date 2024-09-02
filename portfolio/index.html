@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/catlogo.png" class="logo"> -->
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+                
+            </nav>
+            
+            <div class="content-wrapper">
+            <div class="header-text">
+                <p class="title-main">FRONTEND/WEB DEVELOPER</p>
+                <h1>Hi, I'm <span>Haripriya </span> <br>From  Kerala</h1>
+               </div> 
+
+               <section id="profile">
+                <div class="section__pic-container">
+                    <img src="images/my.jpg" alt="myprofile"/>
+                </div>
+                
+            </section>
+        </div>
+        
+        </div>
+        
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ll.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="para">I am a dedicated and passionate Software Developer and Software Tester with a strong foundation in building and delivering high-quality software solutions. With a blend of creative problem-solving and attention to detail, I bring a unique perspective to both development and testing, ensuring that every application not only functions as intended but also provides a seamless user experience.
+
+                        As a Software Developer:
+                        
+                        
+                        </p><br><br>
+                        <div class="tab-titles ">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                            <p class="tab-links" onclick="opentab('Internship')">Internships</p>
+                            
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Application Development</span><br>Html, Css, <br>Bootstrap, Python</li>
+                                <li><span>Frontend Development</span><br>React, Javascript,</li>
+                                
+
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2022-2024</span><br>MCA <br>University Of Calicut Campus<br>Thenhipalam, Malappuram<br>Kerala</li>
+                                <li><span>2019-2022</span><br>Sree Narayana College<br>Vatakara<br>Kozhikode<br>Kerala</li>
+                                
+
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-contents" id="Internship">
+                            <ul>
+                               
+                                <li><span>Data Analytics And Visualization Job Simulation . 2024</span><br>Accenture</li>
+                                <li><span>MERN Fullstack Development . 2024</span><br>ICT Academy Kerala</li>
+                                <li><span>Python . 2024</span><br>Riss Technologies</li><br>
+
+                            </ul>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------portfolio-------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+              <div class="work-list">
+                <div class="work">
+                    <img src="images/aes.jpeg" alt="">
+                    <div class="layer">
+                        <h4>Job Portal Website</h4>
+                        <p class="text"> connects recruiters with jobseekers seeking employment opportunities</p>
+                        <a href="https://github.com/Haripriya21-git/Job-portal-website"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/about.jpeg" alt="">
+                    <div class="layer">
+                        <h4>Smart Ration</h4>
+                        <p class="text"> 
+                            It digitizes ration shop transactions, allowing customers to book and pay for rations online, avoiding long queues</p>
+                        <a href="https://github.com/Haripriya21-git/Smart-ration-final-project"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/aes.jpeg" alt="">
+                    <div class="layer">
+                        <h4>Quick Service</h4>
+                        <p class="text">
+                            A website for connecting local daily wagers with suitable users in a specified locality</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+              </div>  
+        </div>
+    </div>
+    <!-- -------------contact----------- -->
+
+    <div id="contact">
+        <div class="container">
+           <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <P><i class="fa-sharp fa-solid fa-paper-plane"></i>haripriyaviswambharan@gmail.com</P>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/hari_priya._?igsh=MTE2NnAzamFxcnlqZw=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/haripriya-v-7239b9220/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@hari_musicals6955"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://github.com/Haripriya21-git"><i class="fa-brands fa-github"></i></a>
+                   
+                </div><br>
+                <a href="./images/Haripriya Resume.pdf" download   class="btn btn2 mt-5">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+                </form>
+            </div>
+           </div> 
+        </div>
+        <div class="copyright">
+            <p>Thank You<i class="fas fa-heart"></i></p>
+        </div>
+    </div>
+   <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+</body>
+</html>
